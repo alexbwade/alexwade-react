@@ -1,0 +1,125 @@
+/* colors
+#fff8d8
+#6db9d5
+#072e74
+#a4c100 */
+
+.App {
+  display: flex;
+  height: 100vh;
+  background-image: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("./ameen-fahmy.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #072e74;
+
+  h1 {
+    font-weight: 900;
+    color: #072e74;
+    span {
+      color: #6db9d5;
+    }
+  }
+
+  h2 {
+    font-weight: normal;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.portrait {
+  width: 38%;
+  background-image: url("./alex-wade.jpg");
+  background-size: cover;
+  background-position: center center;
+  color: #dde2e6;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  font-weight: lighter;
+  font-style: italic;
+  // padding: 15px;
+}
+
+.content {
+  width: 62%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+
+  > div {
+    padding: 20px;
+  }
+}
+
+.text-nike {
+  font-weight: 900;
+  color: #a4c100;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.photo-by {
+  padding: 15px;
+}
+
+.text-matthew-thogerson {
+  padding: 0 5px;
+  text-decoration: none;
+  color: white;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  .App {
+    display: block;
+
+    h1 {
+      color: white;
+    }
+  }
+  .portrait {
+    width: 100%;
+    height: 100vh;
+    font-size: 12px;
+    position: absolute;
+    background-image: linear-gradient(
+        to bottom,
+        fade-out(#000, 0.95),
+        fade-out(#000, 0.7),
+        fade-out(#000, 0.6)
+      ),
+      url("./alex-wade.jpg");
+  }
+
+  .content {
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    color: white;
+    align-items: flex-end;
+
+    div {
+      margin-bottom: 20px;
+    }
+  }
+
+  .text-matthew-thogerson {
+    font-size: 12px;
+  }
+}
