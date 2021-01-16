@@ -12,7 +12,7 @@
       rgba(255, 255, 255, 0.9),
       rgba(255, 255, 255, 0.8)
     ),
-    url("./ameen-fahmy.jpg");
+    url("./background.jpg");
   background-size: cover;
   background-position: center center;
   color: #072e74;
@@ -37,7 +37,7 @@
 
 .portrait {
   width: 38%;
-  background-image: url("./alex-wade.jpg");
+  background-image: url("./alex-wade-photo.jpg");
   background-size: cover;
   background-position: center center;
   color: #dde2e6;
@@ -104,7 +104,7 @@
         fade-out(#000, 0.7),
         fade-out(#000, 0.6)
       ),
-      url("./alex-wade.jpg");
+      url("./alex-wade-photo.jpg");
   }
 
   .content {
