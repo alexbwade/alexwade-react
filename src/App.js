@@ -22,8 +22,8 @@ const App = () => {
             Hi there, I'm <span>Alex</span>!
           </h1>
           <h2>
-            I am a <strong>React</strong> / <strong>Node.js</strong> developer
-            based in the Portland area.
+            I am a front-end focused <strong>JavaScript engineer</strong> based
+            in the Portland area.
           </h2>
           <p>
             My passion is building fast, user-focused web applications that feel
