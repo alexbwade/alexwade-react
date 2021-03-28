@@ -26,19 +26,19 @@ const App = () => {
             based in the Portland area.
           </h2>
           <p>
-            My game is building fast, user-focused web applications that make
-            life easier.
+            My passion is building fast, user-focused web applications that feel
+            intuitive and add value to people’s lives.
           </p>
           <p>
             <em>
-              (Currently, I am working on an e-commerce project at{" "}
+              (Currently, I am working on the Subscriber UX team at{" "}
               <a
-                className="text-nike"
-                href="https://nike.com"
+                className="text-scribd"
+                href="https://scribd.com"
                 target="_blank"
                 rel="noreferrer"
               >
-                Nike
+                Scribd
               </a>
               .)
             </em>
